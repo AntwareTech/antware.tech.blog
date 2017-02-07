@@ -68,7 +68,9 @@ theme: hacker
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: ssh://git@github.com/AntwareTech/antwaretech.github.io
+  branch: master
 
 duoshuo: true
 duoshuo_name: 46fb3c1e8f28baa488ee7ac2c7eedad8
